@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+    <style>
+        div,p{
+            margin-left: 2em;
+        }
+        p{
+            width: auto; 
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>First Assignment</h2>
+    A. 1) Enter the three numbers to sort :- <br><br>
+    <div>
+        Number 1 - <input type="text" name="a" id="a"><br><br>
+        Number 2 - <input type="text" name="b" id="b"><br><br>
+        Number 3 - <input type="text" name="c" id="c"><br><br>
+        <button onclick="sortnumb(a,b,c)">Sort Numbers</button>
+    </div>
+    <script src="sortnum.js"></script>
+    <br>
+
+    A.2) Enter the range of numbers :- <input type="text" name="n" id="n"><br><br>
+    <div>
+        <button onclick="oddeven()">Numbers</button><br>
+    </div>
+    <p id="numdiv"></p>
+    <script src="odd_even_prime.js">
+    </script>
+    
+    A.3) Pattern :-<br><br>
+    <div>  
+       <script src="pattern.js"></script>
+    </div>
+    <br><br>
+
+    A. 4) Enter email address :- <input type="text" name="email" id="email"><br><br>
+    <div>
+        <button onclick="hideemail()">Submit</button><br><br>
+        Hidden Email address is :-
+        <p id="emailid"></p>
+    </div>
+    <!--<input type="email" name="email" id="emailid"><br><br></div> -->
+    <script src="hide_email.js">
+    </script>
+    <br><br>
+
+    A. 5) Enter the string :- <input type="text" name="str" id="str"><br><br>
+    <div>
+        <button onclick="capS(str)">Change String</button><br><br>
+        Changed string is :-
+        <p id="capstr"></p>
+    </div>
+    <script src="capstr.js">
+    </script>
+    <br><br>
+
+    A. 6) Enter the string :- <input type="text" name="ntstr" id="tstr"><br><br>
+    <div>
+        Enter the truncate position :-
+        <input type="text" name="ntstrp" id="tstrp"><br><br>
+        <button onclick="trunS(tstr, tstrp)">Truncate String</button><br><br>
+        Truncated string is :-
+        <p id="trunstr"></p>
+    </div>
+    <script src="trunstr.js">
+    </script>
+    <br><br>
+
+    A. 7) Enter the string :- <input type="text" name="strsrh" id="strsrh"><br><br>
+    <div>
+        Enter the word to search :-
+        <input type="text" name="wsrch" id="wsrch"><br><br>
+        <button onclick="wrdsrch(strsrh, wsrch)">Search Word</button><br><br>
+        Output is :-
+        <p id="wrdserch"></p>
+    </div>
+    <script src="word_search.js">
+    </script>
+    <br><br>
+
+    A. 8) Enter the value of n :- <input type="text" name="fibs" id="fibs"><br><br>
+    <div>
+        <button onclick="fib(fibs)">Print the Fib Series</button><br><br>
+        Fibonacci series is :-
+        <p id="fiboser"></p>
+    </div>
+    <script src="fibonacci.js">
+    </script>
+    <br><br>
+
+    A. 9) Enter the temperature :- <input type="text" name="tempc" id="tmp"><br><br>
+    <div>
+        <button onclick="convtoF(tmp)">Convert to Fahrenheit</button><br><br>
+        <button onclick="convtoC(tmp)">Convert to Celsius</button><br>
+        <p id="t"></p>
+    </div>
+    <script src="tempconv.js">
+    </script>
+    <br><br>
+
+    A. 10) Enter the string :- <input type="text" name="chncase" id="chncase"><br><br> 
+    <div>
+        <button onclick="casechange(chncase)">Change</button><br>
+        <p id="chngdcase"></p>
+    </div>
+    <script src="chngcase.js">
+    </script>
+
+</body>
+</html>
